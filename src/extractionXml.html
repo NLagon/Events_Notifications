@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myFunction(this);
+    }
+};
+xhttp.open("GET", "books.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var x, i, xmlDoc, txt, sentence;
+    xmlDoc = xml.responseXML;
+    txt = "";
+    sentence= "";
+    x = xmlDoc.documentElement.childNodes;
+    for (i = 0; i < x.length; i++) {
+        if (x[i].nodeName == "book") {
+
+             sentence = "The title is ";
+             txt += sentence + x[i].childNodes[1].childNodes[0].nodeValue + "<br>";
+            //txt += x[i].childNodes[i].childNodes[0].nodeValue + "<br>";
+        }
+    }
+    document.getElementById("demo").innerHTML =  txt;
+}
+</script>
+
+</body>
+</html>
+
+
