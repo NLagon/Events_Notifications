@@ -3,6 +3,7 @@
 <body>
 
 <p id="demo"></p>
+<p id="el"></p>
 
 <script>
 var xhttp = new XMLHttpRequest();
@@ -11,24 +12,25 @@ xhttp.onreadystatechange = function() {
         myFunction(this);
     }
 };
+
+
 xhttp.open("GET", "books.xml", true);
 xhttp.send();
-
 function myFunction(xml) {
     var x, i, xmlDoc, txt, sentence;
     xmlDoc = xml.responseXML;
     txt = "";
     sentence= "";
-    x = xmlDoc.documentElement.childNodes;
-    for (i = 0; i < x.length; i++) {
-        if (x[i].nodeName == "book") {
+    
+    x = xmlDoc.getElementsByTagName("author");
 
-             sentence = "The title is ";
-             txt += sentence + x[i].childNodes[1].childNodes[0].nodeValue + "<br>";
-            //txt += x[i].childNodes[i].childNodes[0].nodeValue + "<br>";
-        }
+
+    for(i=0;i<x.length;i++){
+    txt=x[i].childNodes[0].nodeValue;
+    
+    document.getElementById("demo").innerHTML += "<br>" + txt;
+    '<br>'
     }
-    document.getElementById("demo").innerHTML =  txt;
 }
 </script>
 
