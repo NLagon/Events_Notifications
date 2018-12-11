@@ -5,7 +5,11 @@ As part of our master's degree in Hypermedia Technologies at the University of P
 
 # Installation
 
+PHP should be installed with the extension. 
 
+From the zip
+
+Download the last release
 
 
 # Notes
