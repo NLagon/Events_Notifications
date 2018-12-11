@@ -9,7 +9,7 @@ PHP should be installed with the extension.
 
 From the zip
 
-Download the last release
+Download the last release SearchAuthor v1.2
 
 
 # Notes
