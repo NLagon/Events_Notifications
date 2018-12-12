@@ -7,10 +7,9 @@ As part of our master's degree in Hypermedia Technologies at the University of P
 
 PHP should be installed with the extension. 
 
-From the zip
-
-Download the last release SearchAuthor v1.2
+From the zip download the last release SearchAuthor v1.2
 
 
 # Notes
-
+ 
+ Last release SearchAuthor v1.2
