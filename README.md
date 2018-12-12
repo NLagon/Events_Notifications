@@ -16,14 +16,24 @@ Depuis le zip téléchargez la dernière version de SearchAuthor v1.2
  Dernière version SearchAuthor v1.2
  
  # Usages
+ 
+ Donner un fichier au module. Il parcourera les balises et ressortira le noms des auteurs.
 
 # Warning
+
+Le module n'est pas fonctionnel
 
 # Troubleshooting
 
 # License
 
+Open-source.
+
 # Contact
 
+triki.nassim@gmail.com
+
 # Copyright
+
+Nassime Triki ©
 
