@@ -1,20 +1,29 @@
 # SearchingAuthor
 
-As part of our master's degree in Hypermedia Technologies at the University of Paris 8, we developed a module for the CMS Omeka_S. This module allows you to search for a particular author in all the explored files.
+Dans le cadre de notre maîtrise en Technologies Hypermédia à l'Université Paris 8, nous avons développé un module pour le CMS Omeka_S. Ce module vous permet de rechercher un auteur particulier dans tous les fichiers explorés.
 
 # Description
 
-This module allows you to search for a particular author in all the explored files.
-This would then allow the texts to be searched by authors. We could choose the texts to read.
-
+Cela permettrait ensuite aux auteurs d'effectuer des recherches dans les textes. Nous pourrions choisir les textes à lire.
 
 # Installation
 
-PHP should be installed with the extension. 
-
-From the zip download the last release SearchAuthor v1.2
-
+PHP doit être installé avec l'extension. 
+Depuis le zip téléchargez la dernière version de SearchAuthor v1.2
 
 # Notes
  
- Last release SearchAuthor v1.2
+ Dernière version SearchAuthor v1.2
+ 
+ # Usages
+
+# Warning
+
+# Troubleshooting
+
+# License
+
+# Contact
+
+# Copyright
+
